@@ -1,0 +1,48 @@
+.nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 90px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+    @media (max-width: 600px) {
+        height: 60px;
+
+    }
+
+    
+    &_black{
+        background-color: #111;
+    }
+    
+    &_logo{
+        position: fixed;
+        left: 40px;
+        width: 150px;
+        object-fit: contain;
+    
+        @media (max-width: 600px) {
+            width: 100px;
+        }
+    }
+    
+    
+    &_avatar{
+        position: fixed;
+        right: 20px;
+        width: 50px;
+        object-fit: contain;
+        @media (max-width: 600px) {
+            width: 30px;
+        }
+    }
+}
+
+@media (max-width: 800px) {
+    
+}
